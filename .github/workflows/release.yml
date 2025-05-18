@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install -U pip
-          python -m pip install -U setuptools wheel twine
+          python -m pip install -U setuptools wheel twine<6
 
       - name: Build package
         run: |
