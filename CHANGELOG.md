@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v4.0.0 (2025-12-16)
+> Bumping to version 4; changing the build system to uv-build.
+* Update supported python versions and django versions.
+* Update dependencies.
+* Update CI.
+
 ## v3.0.1 (2025-07-01)
 * Drop dependency on `typing_extensions`.
 
